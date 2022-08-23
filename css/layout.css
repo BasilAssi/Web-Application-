@@ -1,0 +1,110 @@
+
+
+footer {
+    border-top: 5px solid black;
+    width: 100%;
+    font-size: smaller;
+    float: left;
+    background-color: rgb(223, 194, 194);
+}
+
+footer div{
+    
+    position: relative;
+    top: 15px;
+    left: 5px;
+}
+footer img {
+    position: relative;
+    float: left;
+    width: 100px;
+    height: 100px;
+    left: 5px
+}
+
+
+header div h1 {
+    
+    display: inline;
+}
+header nav a {
+    
+    font-size: 20px;
+    
+}
+body {
+    
+    font-size: 14px;
+    
+}
+
+header nav a:link,a:visited {
+    text-decoration: none;
+}
+header {
+    background-color: rgb(207, 195, 195);
+    border-bottom: 5px solid rgb(10, 10, 10);
+    font-size: larger;
+}
+header div {
+    display: flex;
+    align-items: flex-start;
+    display: inline-flex;
+}
+header div img {
+    display: inline;
+    width: 100px;
+    height: 100px;
+    
+}
+
+main {
+    overflow: auto;
+    background-color: rgb(240, 224, 224);
+    float: left;
+    width: 56%;
+    position: relative;
+    left: 10px;
+}
+
+
+aside {
+    overflow: auto;
+    float: right;
+    width: 43%;
+    border: 2px solid rgb(12, 11, 11);
+    margin-top: 10px;
+    
+}
+aside h2{
+    margin: 0px 10px;
+    border-bottom: 1px solid rgb(12, 11, 11);
+    
+}
+aside p {
+    margin: 5px 21px;
+}
+h2 {
+    border-bottom: 1px solid rgb(5, 5, 5);
+    margin-right:  10% ;
+}
+
+
+header a {
+    margin-top: 20px;
+  /* float: right; */
+    
+}
+
+header nav{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.welcome {
+    float: right;
+    display: block;
+}
+

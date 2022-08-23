@@ -1,0 +1,58 @@
+
+th,td{
+    padding: 10px 20px;
+}
+form {
+    font-size: 16px;
+}
+
+
+main section div {
+    display: flex;
+    justify-content: center;
+}
+
+main a , td a{
+    font-size: 14px;
+    color: rgb(247, 54, 54);
+}
+
+.photo {
+    border-right: 1px solid rgb(228, 213, 213);
+    width: 250px;
+    height: 250px;
+    float: left;
+}
+table th {
+    background-color: rgb(91, 155, 238);
+}
+
+table tr img {
+    width: 100px;
+    height: 100px;
+}
+dd{
+    position: relative;
+    left: 30px;
+}
+.addtable  {
+    background-color: rgb(247, 231, 231);
+    border: none;
+    padding: 10px 20px;
+}    
+    
+dt{
+    font-weight: bold;
+    position: relative;
+    left: 10px;
+}
+main section h2 {
+    border-bottom: 1px solid rgb(24, 23, 23);
+}
+table , th , tr ,td {
+    border: 1px solid rgb(13, 218, 13);
+}
+
+tr:nth-child(odd){
+    background-color: rgb(207, 180, 180);
+}
